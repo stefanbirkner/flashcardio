@@ -6,7 +6,23 @@
   <groupId>io.flashcard</groupId>
   <artifactId>webapp</artifactId>
   <version>0.1.0-SNAPSHOT</version>
+	<packaging>war</packaging>
+
 	<name>Flashcard.io Webapp</name>
+	<description>Flashcard.io. The home of your flash cards.</description>
+	<url>http://flashcardio.heroku.com</url>
+	<inceptionYear>2012</inceptionYear>
+
+	<scm>
+		<connection>scm:git:git://github.com/stefanbirkner/flashcardio.git</connection>
+		<developerConnection>scm:git:git@github.com:stefanbirkner/flashcardio.git</developerConnection>
+		<url>https://github.com/stefanbirkner/flashcardio/</url>
+	</scm>
+
+	<properties>
+		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+	</properties>
+
   <dependencies>
     <dependency>
         <groupId>org.apache.tomcat.embed</groupId>
