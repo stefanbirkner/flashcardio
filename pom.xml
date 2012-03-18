@@ -6,7 +6,6 @@
   <groupId>io.flashcard</groupId>
   <artifactId>webapp</artifactId>
   <version>0.1.0-SNAPSHOT</version>
-	<packaging>war</packaging>
 
 	<name>Flashcard.io Webapp</name>
 	<description>Flashcard.io. The home of your flash cards.</description>
