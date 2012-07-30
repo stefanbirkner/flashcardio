@@ -11,7 +11,8 @@ Be sure to have Git, Java and Maven installed. Additionally you need the
 heroku toolbelt from `https://toolbelt.heroku.com/`
 Clone the project from
 `git@github.com:stefanbirkner/flashcardio.git`
-and run the server with 
+and run the server with
+
     mvn package
     sh target/bin/webapp
 
@@ -25,8 +26,13 @@ Deploy flashcardio on Heroku
 ----------------------------
 
 Create a remote branch on Heroku
+
     heroku create
+
 Add it as remote
+
     git remote add heroku git@heroku.com:flashcardio.git
+
 and deploy flashcardio by pushing it to Heroku
+
     git push heroku master
